@@ -1,0 +1,21 @@
+{
+  "name": "kembara",
+  "authors": [
+    "Munzir Rosdi <munzir@gmail.com>"
+  ],
+  "description": "kembara theme",
+  "main": "",
+  "license": "MIT",
+  "homepage": "http://www.mhr.my",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.3"
+  }
+}
