@@ -81,17 +81,25 @@ a:hover, a:focus { color:##e0474c }
 .post { }
 .post a { transition: color 0.3s ease 0s; }
 .post .post-header { }
-.post .post-header h2 { }
-.post .post-header h2 a { font-size:2.4rem; font-weight:700; color:#111 }
+.post .post-header h2 { text-align:center; text-transform:uppercase }
+.post .post-header h2 a { font-size:2.6rem; font-weight:700; color:#111 }
 .post .post-header h2 a:hover { text-decoration:none; color:#333 }
 
-.post .post-meta { color:#aaa; font-size: 0.9rem; }
-.post .post-meta a { color:#777 }
+.post .post-meta { text-align:center; color:#aaa; font-size: 0.8rem; letter-spacing:1px; text-transform:uppercase;  }
+.post .post-meta a { color:#888 }
 
 .post .post-body { margin:1.5rem 0; }
 .post .post-body ::-moz-selection { background: #7acfd6; color:#fff}
 .post .post-body ::selection { background: #7acfd6; color:#fff }
 .post .img-fluid + p { margin-top:1.5rem; }
 
-#secondary-nav { background:#393636; margin-top:2rem }
+#secondary-nav { background:#eee; margin-top:2rem; padding:1.5rem 0; font-size:0.9rem; }
+#secondary-nav h4.title { font-weight:700; text-transform:uppercase; font-size:0.8rem; color:#555; }
+#secondary-nav .social-list .list-inline-item a { color:#ccc; font-size:1.2rem;  }
+#secondary-nav .social-list .list-inline-item a:hover { color:#aaa }
 
+/* UTILITIES */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+}
