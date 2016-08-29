@@ -85,6 +85,7 @@ a:hover, a:focus { color:#e0474c; text-decoration:none; }
 #page-container { margin-top:3rem; }
 
 .post { }
+.post + .post { margin-top:5rem }
 .post a { transition: color 0.3s ease 0s; }
 .post .post-header { }
 .post .post-header h2 { text-align:center; text-transform:uppercase }
