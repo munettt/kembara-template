@@ -91,7 +91,7 @@ a:hover, a:focus { color:#e0474c; text-decoration:none; }
 .post .post-header h2 a { font-size:2.6rem; font-weight:700; color:#111 }
 .post .post-header h2 a:hover { text-decoration:none; color:#333 }
 
-.post .post-meta { text-align:center; color:#aaa; font-size: 0.9rem; text-transform:uppercase;  }
+.post .post-meta { text-align:center; color:#aaa; font-size: 0.8rem; letter-spacing:1px; text-transform:uppercase;  }
 .post .post-meta a { color:#888 }
 
 .post .post-body { margin:1.5rem 0; }
