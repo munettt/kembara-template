@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Munzir Rosdi</title>
+    <title>Kembara</title>
 	
 	
 	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
@@ -17,7 +17,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-	<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+	<link href="bower_components/Ionicons/css/ionicons.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 
 
@@ -29,7 +29,7 @@
 
 	<header id='site-header'>
 		
-		<a class="logo" href="#">Munzir Rosdi</a>
+		<a class="logo" href="#">Kembara</a>
 		
 		<nav class="navbar">
 		  <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#topnav" aria-controls="topnav" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,7 +69,7 @@
 						<h2><a href="#">Hong Kong</a></h2>
 					</div>
 					<div class="post-meta">
-						<span class="date">4 August, 2016</span> / <span class="tags"><a href="#">Travel</a></span>
+						 <span class="tags"><a href="#"><span class="tag tag-default">Travel</span></a></span> / <span class="date">4 August, 2016</span> / <span class="comments"><a href="#">0 Comments</a></span>
 					</div>
 					<div class="post-body">
 						
@@ -95,29 +95,36 @@
 	<section id="secondary-nav">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-6 col-sm-3">
-					<h4 class="title">Social</h4>
-					<ul class="list-unstyled">
-						<li><a href="">Products</a></li>
-						<li><a href="">Services</a></li>
-						<li><a href="">Benefits</a></li>
-						<li><a href="">Developers</a></li>
-					</ul>
-				</div>
-				<div class="col-xs-6 col-sm-3 column">
+				<div class="col-xs-6 col-sm-6 clearfix">
+					
+					<blockquote class="blockquote text-muted">
+						"Life is like a camera. Focus only on what is important and you will capture it perfectly."
+					</blockquote>
 					
 				</div>
-				<div class="col-xs-12 col-sm-3 column">
+				<div class="col-xs-6 col-sm-3 clearfix">
 					
+					<h4 class="title">Search</h4>
+					<form role="search" method="get" class="form-search" action="#">
+					  <div class="input-group">
+						<label class="screen-reader-text" for="s">Search for:</label>
+						<input type="text" class="form-control search-query" placeholder="Search&hellip;" value="" name="s" title="Search for:" />
+						<span class="input-group-btn">
+						  <button type="submit" class="btn btn-primary" name="submit" id="searchsubmit" value="Search"><i class="ion ion-search"></i></button>
+						</span>
+					  </div>
+					</form>
 				</div>
+				
 				<div class="col-xs-12 col-sm-3 text-xs-right">
+					<img src="images/about-me.png" width="60" class="img-rounded pull-xs-right m-l-1">
 					<h4 class="title">Social</h4>
-					<ul class="list-inline">
-						<li class="list-inline-item"><a rel="nofollow" href="" title="Twitter"><i class="icon-lg ion-social-twitter"></i></a>&nbsp;</li>
-						<li class="list-inline-item"><a rel="nofollow" href="" title="Facebook"><i class="icon-lg ion-social-facebook"></i></a></li>
-						<li class="list-inline-item"><a rel="nofollow" href="" title="Github"><i class="icon-lg ion-social-github"></i></a></li>
-						<li class="list-inline-item"><a rel="nofollow" href="" title="Youtube"><i class="icon-lg ion-social-youtube"></i></a></li>
-						<li class="list-inline-item"><a rel="nofollow" href="" title="Youtube"><i class="icon-lg ion-social-instagram-outline"></i></a></li>
+					<ul class="list-inline social-list">
+						<li class="list-inline-item"><a rel="nofollow" href="" title="Twitter"><i class="ion ion-social-twitter"></i></a>&nbsp;</li>
+						<li class="list-inline-item"><a rel="nofollow" href="" title="Facebook"><i class="ion ion-social-facebook"></i></a></li>
+						<li class="list-inline-item"><a rel="nofollow" href="" title="Github"><i class="ion ion-social-github"></i></a></li>
+						<li class="list-inline-item"><a rel="nofollow" href="" title="Youtube"><i class="ion ion-social-youtube"></i></a></li>
+						<li class="list-inline-item"><a rel="nofollow" href="" title="Youtube"><i class="ion ion-social-instagram-outline"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -149,6 +156,15 @@
 			$('.navbar').removeClass('fixed');
 		}
 	});
+
+	$('.logo').hover(function()
+	{
+		$('#site-header').addClass('active');
+	},function()
+	{
+		$('#site-header').removeClass('active');
+	});
+
 	</script>
   </body>
 </html>
