@@ -171,26 +171,6 @@
     <script>window.jQuery || document.write('<script src="bower_components/jquery/dist/jquery.min.js"><\/script>')</script>
     <script src="bower_components/tether/dist/js/tether.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script>
-	$(window).on('scroll', function(event) {
-		var scrollValue = $(window).scrollTop();
-		if (scrollValue > 300) {
-			 $('.navbar').addClass('fixed');
-		} 
-		else
-		{
-			$('.navbar').removeClass('fixed');
-		}
-	});
-
-	$('.logo').hover(function()
-	{
-		$('#site-header').addClass('active');
-	},function()
-	{
-		$('#site-header').removeClass('active');
-	});
-
-	</script>
+	<script src="js/main.js"></script>
   </body>
 </html>

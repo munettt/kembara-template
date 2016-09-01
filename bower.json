@@ -1,0 +1,22 @@
+{
+  "name": "kembara",
+  "homepage": "https://github.com/munettt/kembara-template",
+  "authors": [
+    "Munzir Rosdi <munzir@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.3",
+    "Ionicons": "ionicons#^2.0.1"
+  }
+}
