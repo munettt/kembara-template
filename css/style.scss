@@ -1,4 +1,4 @@
-
+@import "scss/bootstrap";
 
 body {
 	font-family:"PT Sans";
@@ -15,7 +15,7 @@ body {
 
 #site-header.active
 {
-	background:url('../images/cloud9.jpg') 0 -200px;
+	background:url('../../images/cloud9.jpg') 0 -200px;
 	background-size:cover;
 }
 
